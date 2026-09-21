@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Dynamic Price Optimization Engine using AI & Machine Learning
 ### Applied Machine Learning for Industry Solutions Laboratory Project
 
@@ -260,11 +259,7 @@ OK
 ### Q4: How does the ML model determine the optimal price?
 > **Answer:** The engine uses a Random Forest Regressor trained on pricing features: cost price, current price, competitor price, demand level, inventory level, season, and sales velocity. It balances competitor benchmarks and demand elasticity, then applies business guardrails:
 > 1. **Profit Floor Guardrail:** Price $\ge \text{Cost Price} \times 1.12$ (guaranteeing at least 12% gross profit margin).
-> 2. **Volatility Cap Guardrail:** Price changes are capped to $\pm 25\%$ of current price to avoid customer sticker shock.
-=======
-# dynamic-price-optimization-engine
-dynamic-price-optimization-engine an AMLIS project to predict the optimize price
->>>>>>> b07eca71d48b0a9c60611fb4dc9222b5ffcbb6cc
+
 
 # 🚀 Dynamic Price Optimization Engine
 
