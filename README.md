@@ -259,7 +259,7 @@ OK
 ### Q4: How does the ML model determine the optimal price?
 > **Answer:** The engine uses a Random Forest Regressor trained on pricing features: cost price, current price, competitor price, demand level, inventory level, season, and sales velocity. It balances competitor benchmarks and demand elasticity, then applies business guardrails:
 > 1. **Profit Floor Guardrail:** Price $\ge \text{Cost Price} \times 1.12$ (guaranteeing at least 12% gross profit margin).
-
+> 2. **Volatility Cap Guardrail:** Price changes are capped to $\pm 25\%$ of current price to avoid customer sticker shock.
 
 # 🚀 Dynamic Price Optimization Engine
 
